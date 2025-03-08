@@ -1,0 +1,79 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+#include <winbase.h>
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+
+}
+//---------------------------------------------------------------------------
+//---------------------------------------------------------------------------
+void __fastcall TForm1::DownloadWorkBegin(TObject *ASender, TWorkMode AWorkMode, __int64 AWorkCountMax)
+
+{
+	 ProgressBar1->Position = 0 ;
+	 ProgressBar1->Max = AWorkCountMax;
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::DownloadWork(TObject *ASender, TWorkMode AWorkMode, __int64 AWorkCount)
+{
+	ProgressBar1->Position = AWorkCount;
+	Application->ProcessMessages();
+}
+
+//---------------------------------------------------------------------------
+
+//---------------------------------------------------------------------------
+
+//---------------------------------------------------------------------------
+
+
+
+
+
+
+
+//---------------------------------------------------------------------------
+void LoadLaucher()
+{
+
+}
+void __fastcall TForm1::DownloadWorkEnd(TObject *ASender, TWorkMode AWorkMode)
+{
+   //	if (ProgressBar1->Position == ProgressBar1->Max) {
+	//    LoadLaucher();
+	//}
+
+}
+//---------------------------------------------------------------------------
+
+
+
+
+void __fastcall TForm1::FormActivate(TObject *Sender)
+{
+		DeleteFile("9DEmperor.exe");
+	TFileStream *fs = new TFileStream("9DEmperor.exe",fmCreate);
+	Download->Get("http://14.225.253.153/CLIENT-UPDATE/eods/9DEmperor.exe",fs);
+	delete fs;
+	while (!(ProgressBar1->Position == ProgressBar1->Max))
+	{
+	   Sleep(200) ;
+	}
+	 Sleep(500);
+	 String NdLaucher = "9DEmperor.exe";
+			HINSTANCE r = ShellExecuteW(NULL, L"open", NdLaucher.c_str(), NULL, NULL, SW_SHOWNORMAL);
+	Application->Terminate();
+}
+//---------------------------------------------------------------------------
+

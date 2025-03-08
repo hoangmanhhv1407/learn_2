@@ -1,0 +1,16 @@
+[  1: 9:18 ]  Initialize registry file.
+[  1: 9:18 ]  Load registry file...
+[  1: 9:18 ]  Set process priority.
+[  1: 9:18 ]  Begin kernel.
+[  1: 9:19 ]  Set english language pack, Font name [Arial]
+[  1: 9:19 ]  Code page : 1252, Local : 1
+[  1: 9:19 ]  Build sqrt LUT
+[  1: 9:19 ]  Load text resource
+[  1: 9:19 ]  Parse script : language list
+[  1: 9:19 ]  Language : English
+[  1: 9:19 ]  Set sub language : 0:English
+[  1: 9:19 ]  ERROR : scr_version indicator / step 2
+[  1: 9:19 ]  ERROR: D? li?u s? d?ng trong C?u Long Tranh B† da du?c gi? m?o ho?c da khìng update nhu bçnh thu?ng. Hay cÖi l?i chuong trçnh. 
+[  1: 9:19 ]  GAME GUARD CALLBACK : Unknown message, E_Code:1598
+[  1: 9:22 ]  GAME GUARD CALLBACK : Unknown message, E_Code:1598
+[  1: 9:23 ]  Released 9dragons instance object.

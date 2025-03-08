@@ -1,0 +1,74 @@
+=============================================================================
+Startup log...
+2024-4-29 / 18:36:24 
+=============================================================================
+Launcher section 2...
+Start launcher sub module
+WSAStartup...
+Trace start...
+Create menu
+Create windows object
+FMOD : Check FMOD version
+FMOD : Set output device
+FMOD : Enumelate sound driver
+Initialize background Flash
+Package Message : Package opened [XLauncher.xp]
+Initialize background Image
+Package Message : Package opened [XLauncher.xp]
+Initialize web browser control
+read UI string 1
+Move notice browser window
+connect to web : phase 1
+Before bavigate notice page
+Move update notice browser window
+Set browser static
+Link web page : Phase 1
+Link web page : Phase 2
+Resize  : log list control
+Initialize  : log list control
+Change color :  log list control
+Change style : log list control
+Hide window : log list control
+Initialize status text
+Initialize title control
+Initialize gui buttons
+Initialize complete
+Begin patch works.
+Check exe version.
+Get server info.
+Start version check.
+Start : cvs.
+Create socket object...
+Created socket object...
+Connect to version server...
+Connected to version server...
+Recieve version...
+Recieved version...
+Close socket...
+Server version : 57
+End version check.
+Download thread : http://dangnhap.zplay9d.net/ND1/PATCH.PSC -> D:\Code Client\Laucher Zplay\Win32\Release\PATCH.PSC
+Parse patch script
+client patch number : 22  patch script patch index : 57
+Package name : server : OpenBetaX1, client : OpenBetaX1
+Downloading [PATCH23.XPZ].Download thread : http://103.206.216.40/ND1/PATCH23.XPZ -> D:\Code Client\Laucher Zplay\Win32\Release\PATCH23.XPZ
+Finished downloading [PATCH23.XPZ].Package Message : Package opened [PATCH23.XP]
+Package Message : Open patch information file [PATCH23.XP:PATCH23.XPI]
+Update : \DATA\TEXTURE\TR_MAININTERFACE.XP
+
+Package Message : Export file [0:D:\Code Client\Laucher Zplay\Win32\Release\DATA\TEXTURE\TR_MAININTERFACE.XP_Merge]
+Package Message : Check folder and create [0:D:\Code Client\Laucher Zplay\Win32\Release\DATA\TEXTURE\TR_MAININTERFACE.XP_Merge]
+Package Message : Check old file [0:D:\Code Client\Laucher Zplay\Win32\Release\DATA\TEXTURE\TR_MAININTERFACE.XP_Merge]
+Package Message : Rename new file [D:\Code Client\Laucher Zplay\Win32\Release\DATA\TEXTURE\TR_MAININTERFACE.XP_Merge_new->D:\Code Client\Laucher Zplay\Win32\Release\DATA\TEXTURE\TR_MAININTERFACE.XP_Merge]
+Modifing package file.
+    D:\Code Client\Laucher Zplay\Win32\Release\DATA\TEXTURE\TR_MAININTERFACE.XP
+Package Message : Package opened [D:\Code Client\Laucher Zplay\Win32\Release\DATA\TEXTURE\TR_MAININTERFACE.XP]
+Package Message : Package opened [D:\Code Client\Laucher Zplay\Win32\Release\DATA\TEXTURE\TR_MAININTERFACE.XP_Merge]
+Calculate package informations.
+Rebuild package
+WSA Cleanup...
+End of launcher sub module
+=============================================================================
+End of log.
+2024-4-29 / 18:36:26 
+==================================================================Code by _X=

@@ -1,0 +1,15 @@
+[ 21:35: 4 ]  Initialize registry file.
+[ 21:35: 4 ]  Load registry file...
+[ 21:35: 4 ]  Set process priority.
+[ 21:35: 4 ]  Begin kernel.
+[ 21:35: 4 ]  Set english language pack, Font name [Arial]
+[ 21:35: 4 ]  Code page : 1252, Local : 1
+[ 21:35: 4 ]  Build sqrt LUT
+[ 21:35: 4 ]  Load text resource
+[ 21:35: 4 ]  Parse script : language list
+[ 21:35: 4 ]  Language : English
+[ 21:35: 4 ]  Language : VN
+[ 21:35: 4 ]  Set sub language : 0:English
+[ 21:35: 4 ]  ERROR : scr_version indicator / step 1
+[ 21:35: 4 ]  ERROR: D? li?u s? d?ng trong C?u Long Tranh B† da du?c gi? m?o ho?c da khìng update nhu bçnh thu?ng. Hay cÖi l?i chuong trçnh. 
+[ 21:35: 7 ]  Released 9dragons instance object.

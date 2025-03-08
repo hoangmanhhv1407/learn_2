@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/12/18 18:06:58.000.903,=G:\Projects\Unit1.cpp</Transaction>
+    <Transaction>2020/12/18 18:06:58.000.833,=G:\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2020/12/18 18:35:00.000.944,G:\Projects\Project1.cbproj=G:\Projects\Project1.cbproj</Transaction>
+    <Transaction>2020/12/19 00:39:42.000.258,G:\Projects\UpdatePCH1.h=G:\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2020/12/19 00:39:42.000.274,G:\Projects\Update.cbproj=G:\Projects\Project1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>
